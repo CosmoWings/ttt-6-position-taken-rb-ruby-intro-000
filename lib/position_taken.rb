@@ -6,9 +6,7 @@ def position_taken?(array,index)
     return false
   elsif array[index] == ""
     return false
-  elsif array[index] == "X"
-    return true 
-  elsif array[index] == "O"
+  else
     return true
   end
 end
